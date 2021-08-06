@@ -1,0 +1,31 @@
+.modal-overlay{
+    position: fixed;
+    background: rgba(0, 0, 0, .2);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+    display: none;
+}
+.modal{
+    max-width: 550px;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+}
+.close{
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+   
+}

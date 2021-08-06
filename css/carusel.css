@@ -1,0 +1,43 @@
+.carusel{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 100px 100px 10px;
+}
+.carusel-section{
+    position: relative;
+    margin-bottom: 30px;
+}
+.carusel>p:not(:last-of-type){
+    padding-bottom: 30px;
+}
+.carusel>p:nth-child(1){
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #3142C6;
+}
+.carusel>p:nth-child(2){
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    padding-bottom: 35px;
+     max-width: 800px;
+    margin: 0 auto;
+}
+.carusel>p:nth-child(3){
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+.carusel>p:nth-child(4){
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.img-carusel{
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
